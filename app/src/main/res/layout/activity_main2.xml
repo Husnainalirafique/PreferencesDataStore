@@ -7,10 +7,17 @@
 
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity2">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="vertical"
+        tools:context=".datastore.storingobjects.StoringObjects">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Savin and displaying Objects in data store"/>
+    </LinearLayout>
 </layout>

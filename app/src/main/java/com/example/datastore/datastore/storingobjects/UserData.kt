@@ -1,4 +1,4 @@
-package com.example.datastore.datastore
+package com.example.datastore.datastore.storingobjects
 
 import kotlinx.serialization.Serializable
 

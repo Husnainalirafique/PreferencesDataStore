@@ -1,4 +1,4 @@
-package com.example.datastore.datastore
+package com.example.datastore.datastore.keys
 
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.intPreferencesKey
