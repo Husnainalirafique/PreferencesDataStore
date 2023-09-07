@@ -7,4 +7,5 @@ import androidx.datastore.preferences.core.stringPreferencesKey
 object PrefKeys {
     val LOGIN_KEY = booleanPreferencesKey("login")
     val USER_DATA_KEY = stringPreferencesKey("userdata")
+    val COLOR_KEY = booleanPreferencesKey("themeswitch")
 }

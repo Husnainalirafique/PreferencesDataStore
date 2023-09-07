@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".ui.MainActivity">
         <Button
             android:id="@+id/btnClick"
             android:layout_width="match_parent"
@@ -24,5 +24,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Saving objects"/>
+        <Button
+            android:id="@+id/btnThemeSavingActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Saving Theme "/>
     </LinearLayout>
 </layout>

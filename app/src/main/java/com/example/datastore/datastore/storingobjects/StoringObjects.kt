@@ -7,7 +7,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.datastore.preferences.core.edit
 import androidx.lifecycle.lifecycleScope
 import com.example.datastore.R
-import com.example.datastore.dataStore
+import com.example.datastore.ui.dataStore
 import com.example.datastore.databinding.ActivityMain2Binding
 import com.example.datastore.datastore.keys.PrefKeys
 import kotlinx.coroutines.Dispatchers

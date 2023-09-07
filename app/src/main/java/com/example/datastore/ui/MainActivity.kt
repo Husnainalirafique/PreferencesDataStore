@@ -1,4 +1,4 @@
-package com.example.datastore
+package com.example.datastore.ui
 
 import android.content.Context
 import android.content.Intent
@@ -11,6 +11,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.lifecycleScope
+import com.example.datastore.R
 import com.example.datastore.databinding.ActivityMainBinding
 import com.example.datastore.datastore.keys.PrefKeys
 import com.example.datastore.datastore.storingobjects.StoringObjects
@@ -43,6 +44,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnActivity2.setOnClickListener {
             startActivity(Intent(this@MainActivity, StoringObjects::class.java))
+        }
+        binding.btnThemeSavingActivity.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ThemeActivity::class.java))
         }
     }
 
